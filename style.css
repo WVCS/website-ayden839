@@ -1,12 +1,33 @@
+
 body {
- <style>
   font-family: system-ui;
   background: purple;
   color: white;
   text-align: center;
     text-decoration-line: underline;
+}
   img:hover {
     border: red dotted 15px;
       border-radius: 50%;
-    </style>
+
+}
+nav {
+  list-style-type: none;
+  width: 100%;
+    background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+li a{
+  color: white;
+  text-decoration:none;
+  display: block;
+  float: left;
+  padding: 15px 60px;
+}
+li a:hover{
+  bacground-color; wheat; 
+  color: red;
 }
